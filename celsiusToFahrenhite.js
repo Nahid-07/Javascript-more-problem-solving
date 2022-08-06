@@ -3,6 +3,6 @@ function CelciustoF(celcius){
     let farenhite =  celcius * 9 / 5 + 32;  /* this is the formula */
     return farenhite;
 }
-let cel =60;
+let cel =37;
 const result = CelciustoF(cel);
-console.log(result);
+console.log(parseFloat(result.toFixed(2)));
